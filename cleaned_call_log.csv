@@ -1,0 +1,601 @@
+,id,callerID,agentID,complaintTopic,assignedTo,status,resolutionDurationInHours,assigned_calls_to_agent_id
+0,1,CALLER_1,163,Billing discrepancy,122,Closed,33.0,122
+1,2,CALLER_2,133,Difficulty reaching customer support,133,New,Not provided,133
+2,3,CALLER_3,153,Wrong item received,122,Resolved,Not provided,122
+3,4,CALLER_4,161,Unauthorized charges,151,Pending,Not provided,151
+4,5,CALLER_5,148,Unprofessional behavior,148,New,Not provided,148
+5,6,CALLER_6,157,Inadequate product instructions,125,Closed,18.0,125
+6,7,CALLER_7,179,Unsatisfactory resolution,125,Resolved,Not provided,125
+7,8,CALLER_8,171,Rude customer service representative,171,Pending,Not provided,171
+8,9,CALLER_9,161,Website not working,161,New,Not provided,161
+9,10,CALLER_10,159,Product damaged during shipping,135,Resolved,Not provided,135
+10,11,CALLER_11,147,Inadequate product instructions,133,Closed,18.0,133
+11,12,CALLER_12,143,Inaccurate information provided,122,Pending,Not provided,122
+12,13,CALLER_13,124,Slow response time,132,Resolved,Not provided,132
+13,14,CALLER_14,151,Unsatisfactory resolution,136,Resolved,Not provided,136
+14,15,CALLER_15,171,Slow response time,171,New,Not provided,171
+15,16,CALLER_16,131,Difficulty getting a refund,169,Pending,Not provided,169
+16,17,CALLER_17,179,Long wait time,155,Closed,44.0,155
+17,18,CALLER_18,130,Website not working,155,Closed,13.0,155
+18,19,CALLER_19,159,Shipping delay,159,Closed,32.0,159
+19,20,CALLER_20,131,Misplaced order,131,Closed,44.0,131
+20,21,CALLER_21,121,Unprofessional behavior,121,New,Not provided,121
+21,22,CALLER_22,121,Refund not processed,133,Resolved,Not provided,133
+22,23,CALLER_23,177,Unprofessional behavior,158,New,Not provided,158
+23,24,CALLER_24,173,Shipping delay,137,Resolved,Not provided,137
+24,25,CALLER_25,162,Package never arrived,162,Closed,17.0,162
+25,26,CALLER_26,124,Lack of follow-up,143,New,Not provided,143
+26,27,CALLER_27,168,Lack of follow-up,166,Pending,Not provided,166
+27,28,CALLER_28,146,Billing discrepancy,133,Pending,Not provided,133
+28,29,CALLER_29,151,Product not as described,173,Closed,26.0,173
+29,30,CALLER_30,172,Long wait time,133,Closed,35.0,133
+30,31,CALLER_31,161,Unsatisfactory resolution,179,Closed,14.0,179
+31,32,CALLER_32,157,Lack of follow-up,157,New,Not provided,157
+32,33,CALLER_33,138,Incorrect charges,138,Resolved,Not provided,138
+33,34,CALLER_34,142,Product damaged during shipping,140,Closed,27.0,140
+34,35,CALLER_35,123,Unauthorized charges,123,Pending,Not provided,123
+35,36,CALLER_36,180,Incorrect order,167,Pending,Not provided,167
+36,37,CALLER_37,135,Incorrect charges,145,Closed,26.0,145
+37,38,CALLER_38,179,Unauthorized charges,143,Pending,Not provided,143
+38,39,CALLER_39,129,Rude customer service representative,129,Pending,Not provided,129
+39,40,CALLER_40,122,Rude customer service representative,146,New,Not provided,146
+40,41,CALLER_41,159,Poor communication,144,Pending,Not provided,144
+41,42,CALLER_42,156,Website not working,156,Pending,Not provided,156
+42,43,CALLER_43,144,Poor communication,161,Pending,Not provided,161
+43,44,CALLER_44,171,Difficulty reaching customer support,177,Resolved,Not provided,177
+44,45,CALLER_45,172,Lost package,172,Closed,36.0,172
+45,46,CALLER_46,156,Difficulty reaching customer support,141,Closed,38.0,141
+46,47,CALLER_47,172,Difficulty cancelling subscription,172,Resolved,Not provided,172
+47,48,CALLER_48,135,Difficulty reaching customer support,135,Pending,Not provided,135
+48,49,CALLER_49,171,Inadequate product instructions,171,Closed,18.0,171
+49,50,CALLER_50,160,Product not as described,172,Pending,Not provided,172
+50,51,CALLER_51,180,Unsatisfactory resolution,180,Closed,30.0,180
+51,52,CALLER_52,160,Website not working,160,Closed,41.0,160
+52,53,CALLER_53,158,Slow response time,158,Pending,Not provided,158
+53,54,CALLER_54,167,Long wait time,167,Closed,31.0,167
+54,55,CALLER_55,157,Shipping delay,157,Closed,13.0,157
+55,56,CALLER_56,133,Package never arrived,133,Closed,29.0,133
+56,57,CALLER_57,176,Incorrect order,132,Resolved,Not provided,132
+57,58,CALLER_58,177,Package never arrived,177,Closed,3.0,177
+58,59,CALLER_59,132,Product damaged during shipping,124,Closed,4.0,124
+59,60,CALLER_60,163,Package delivered to wrong address,163,New,Not provided,163
+60,61,CALLER_61,177,Unauthorized charges,177,Closed,41.0,177
+61,62,CALLER_62,140,Website not working,140,Pending,Not provided,140
+62,63,CALLER_63,152,Shipping delay,158,Pending,Not provided,158
+63,64,CALLER_64,131,Billing discrepancy,131,Resolved,Not provided,131
+64,65,CALLER_65,166,Billing discrepancy,166,Closed,5.0,166
+65,66,CALLER_66,154,Product damaged during shipping,139,Pending,Not provided,139
+66,67,CALLER_67,124,Incorrect charges,124,New,Not provided,124
+67,68,CALLER_68,146,Unsatisfactory resolution,146,Closed,28.0,146
+68,69,CALLER_69,131,Package never arrived,156,Resolved,Not provided,156
+69,70,CALLER_70,175,Poor communication,159,Resolved,Not provided,159
+70,71,CALLER_71,132,Unhelpful support,160,Closed,28.0,160
+71,72,CALLER_72,128,Poor communication,171,Pending,Not provided,171
+72,73,CALLER_73,150,Product not delivered,150,Closed,37.0,150
+73,74,CALLER_74,146,Billing discrepancy,146,Pending,Not provided,146
+74,75,CALLER_75,124,Long wait time,173,New,Not provided,173
+75,76,CALLER_76,135,Product not delivered,135,Closed,8.0,135
+76,77,CALLER_77,121,Unhelpful support,121,New,Not provided,121
+77,78,CALLER_78,170,Unhelpful support,135,Pending,Not provided,135
+78,79,CALLER_79,166,Misplaced order,133,Pending,Not provided,133
+79,80,CALLER_80,149,Product damaged during shipping,149,Resolved,Not provided,149
+80,81,CALLER_81,123,Lost package,170,New,Not provided,170
+81,82,CALLER_82,123,Package never arrived,161,Pending,Not provided,161
+82,83,CALLER_83,137,Long wait time,137,Resolved,Not provided,137
+83,84,CALLER_84,123,Unhelpful support,123,New,Not provided,123
+84,85,CALLER_85,170,Poor quality product,159,Pending,Not provided,159
+85,86,CALLER_86,168,Inaccurate information provided,125,Pending,Not provided,125
+86,87,CALLER_87,143,Misplaced order,140,Resolved,Not provided,140
+87,88,CALLER_88,141,Unhelpful support,145,Pending,Not provided,145
+88,89,CALLER_89,163,Slow response time,163,Pending,Not provided,163
+89,90,CALLER_90,136,Website not working,136,Pending,Not provided,136
+90,91,CALLER_91,176,Unsatisfactory resolution,176,Pending,Not provided,176
+91,92,CALLER_92,139,Wrong item received,144,New,Not provided,144
+92,93,CALLER_93,123,Unprofessional behavior,123,New,Not provided,123
+93,94,CALLER_94,150,Wrong item received,150,Closed,25.0,150
+94,95,CALLER_95,147,Difficulty cancelling subscription,177,Closed,37.0,177
+95,96,CALLER_96,147,Lost package,130,Pending,Not provided,130
+96,97,CALLER_97,146,Product not as described,146,Resolved,Not provided,146
+97,98,CALLER_98,147,Unhelpful support,143,Closed,29.0,143
+98,99,CALLER_99,128,Unsatisfactory resolution,130,Closed,17.0,130
+99,100,CALLER_100,123,Lost package,123,Closed,48.0,123
+100,101,CALLER_101,134,Poor communication,134,New,Not provided,134
+101,102,CALLER_102,176,Inaccurate information provided,176,Pending,Not provided,176
+102,103,CALLER_103,147,Refund not processed,129,New,Not provided,129
+103,104,CALLER_104,132,Incorrect order,132,Pending,Not provided,132
+104,105,CALLER_105,160,Slow response time,160,Closed,43.0,160
+105,106,CALLER_106,131,Product not as described,162,Pending,Not provided,162
+106,107,CALLER_107,143,Product not as described,143,New,Not provided,143
+107,108,CALLER_108,158,Product damaged during shipping,148,Closed,11.0,148
+108,109,CALLER_109,158,Product not as described,175,Closed,14.0,175
+109,110,CALLER_110,146,Inaccurate information provided,146,Closed,30.0,146
+110,111,CALLER_111,122,Product damaged during shipping,122,Pending,Not provided,122
+111,112,CALLER_112,144,Rude customer service representative,163,New,Not provided,163
+112,113,CALLER_113,147,Inaccurate information provided,132,Pending,Not provided,132
+113,114,CALLER_114,179,Poor communication,137,Pending,Not provided,137
+114,115,CALLER_115,158,Slow response time,152,Pending,Not provided,152
+115,116,CALLER_116,173,Difficulty getting a refund,148,Pending,Not provided,148
+116,117,CALLER_117,148,Shipping delay,147,Resolved,Not provided,147
+117,118,CALLER_118,178,Difficulty cancelling subscription,178,Resolved,Not provided,178
+118,119,CALLER_119,176,Slow response time,138,Closed,26.0,138
+119,120,CALLER_120,139,Product not as described,140,New,Not provided,140
+120,121,CALLER_121,137,Package never arrived,137,Pending,Not provided,137
+121,122,CALLER_122,177,Unhelpful support,177,Pending,Not provided,177
+122,123,CALLER_123,174,Refund not processed,136,Resolved,Not provided,136
+123,124,CALLER_124,130,Rude customer service representative,130,Pending,Not provided,130
+124,125,CALLER_125,123,Unsatisfactory resolution,142,Resolved,Not provided,142
+125,126,CALLER_126,154,Inadequate product instructions,143,New,Not provided,143
+126,127,CALLER_127,132,Product not delivered,123,Pending,Not provided,123
+127,128,CALLER_128,164,Slow response time,164,Pending,Not provided,164
+128,129,CALLER_129,154,Unauthorized charges,180,Closed,34.0,180
+129,130,CALLER_130,146,Poor communication,170,Pending,Not provided,170
+130,131,CALLER_131,177,Product damaged during shipping,156,New,Not provided,156
+131,132,CALLER_132,176,Incorrect charges,176,Pending,Not provided,176
+132,133,CALLER_133,141,Website not working,141,New,Not provided,141
+133,134,CALLER_134,131,Slow response time,146,Pending,Not provided,146
+134,135,CALLER_135,130,Long wait time,141,Pending,Not provided,141
+135,136,CALLER_136,132,Unresolved issue,156,Pending,Not provided,156
+136,137,CALLER_137,168,Inaccurate information provided,167,Pending,Not provided,167
+137,138,CALLER_138,164,Difficulty cancelling subscription,159,Closed,7.0,159
+138,139,CALLER_139,124,Rude customer service representative,122,Pending,Not provided,122
+139,140,CALLER_140,175,Wrong item received,169,Closed,47.0,169
+140,141,CALLER_141,130,Unsatisfactory resolution,168,Pending,Not provided,168
+141,142,CALLER_142,128,Lack of follow-up,137,Pending,Not provided,137
+142,143,CALLER_143,136,Unprofessional behavior,136,Pending,Not provided,136
+143,144,CALLER_144,157,Refund not processed,133,Closed,16.0,133
+144,145,CALLER_145,150,Incorrect order,150,New,Not provided,150
+145,146,CALLER_146,129,Poor communication,129,Resolved,Not provided,129
+146,147,CALLER_147,122,Package never arrived,157,Pending,Not provided,157
+147,148,CALLER_148,141,Difficulty getting a refund,160,Closed,9.0,160
+148,149,CALLER_149,121,Lack of follow-up,178,Closed,7.0,178
+149,150,CALLER_150,153,Wrong item received,138,Pending,Not provided,138
+150,151,CALLER_151,134,Difficulty cancelling subscription,134,Pending,Not provided,134
+151,152,CALLER_152,144,Product not as described,171,Closed,43.0,171
+152,153,CALLER_153,159,Product not delivered,134,Resolved,Not provided,134
+153,154,CALLER_154,141,Poor communication,158,Pending,Not provided,158
+154,155,CALLER_155,125,Package delivered to wrong address,162,Pending,Not provided,162
+155,156,CALLER_156,129,Unhelpful support,129,Resolved,Not provided,129
+156,157,CALLER_157,134,Inaccurate information provided,134,Closed,46.0,134
+157,158,CALLER_158,131,Misplaced order,131,Pending,Not provided,131
+158,159,CALLER_159,136,Difficulty reaching customer support,136,Pending,Not provided,136
+159,160,CALLER_160,162,Difficulty cancelling subscription,162,Pending,Not provided,162
+160,161,CALLER_161,153,Long wait time,159,Pending,Not provided,159
+161,162,CALLER_162,156,Unsatisfactory resolution,137,Pending,Not provided,137
+162,163,CALLER_163,149,Poor communication,141,Closed,48.0,141
+163,164,CALLER_164,141,Product not as described,168,New,Not provided,168
+164,165,CALLER_165,165,Rude customer service representative,173,Closed,43.0,173
+165,166,CALLER_166,137,Refund not processed,137,Closed,42.0,137
+166,167,CALLER_167,133,Package delivered to wrong address,130,Closed,11.0,130
+167,168,CALLER_168,149,Poor quality product,129,Pending,Not provided,129
+168,169,CALLER_169,161,Long wait time,158,Closed,32.0,158
+169,170,CALLER_170,127,Product not as described,160,Closed,33.0,160
+170,171,CALLER_171,151,Lack of follow-up,167,Closed,29.0,167
+171,172,CALLER_172,142,Misplaced order,129,New,Not provided,129
+172,173,CALLER_173,143,Billing discrepancy,143,Resolved,Not provided,143
+173,174,CALLER_174,159,Unprofessional behavior,150,New,Not provided,150
+174,175,CALLER_175,131,Unprofessional behavior,161,Pending,Not provided,161
+175,176,CALLER_176,170,Package delivered to wrong address,132,Pending,Not provided,132
+176,177,CALLER_177,179,Inaccurate information provided,179,Pending,Not provided,179
+177,178,CALLER_178,169,Lack of follow-up,124,Pending,Not provided,124
+178,179,CALLER_179,138,Unresolved issue,154,Pending,Not provided,154
+179,180,CALLER_180,163,Shipping delay,125,Pending,Not provided,125
+180,181,CALLER_181,126,Incorrect charges,126,Pending,Not provided,126
+181,182,CALLER_182,178,Billing discrepancy,168,Closed,45.0,168
+182,183,CALLER_183,141,Misplaced order,142,Pending,Not provided,142
+183,184,CALLER_184,135,Incorrect charges,135,Resolved,Not provided,135
+184,185,CALLER_185,140,Difficulty reaching customer support,135,Resolved,Not provided,135
+185,186,CALLER_186,180,Wrong item received,168,Closed,6.0,168
+186,187,CALLER_187,137,Poor communication,137,Closed,39.0,137
+187,188,CALLER_188,149,Inaccurate information provided,158,Pending,Not provided,158
+188,189,CALLER_189,174,Package never arrived,172,Resolved,Not provided,172
+189,190,CALLER_190,160,Incorrect order,135,Pending,Not provided,135
+190,191,CALLER_191,181,Slow response time,176,New,Not provided,176
+191,192,CALLER_192,173,Inaccurate information provided,129,Closed,42.0,129
+192,193,CALLER_193,139,Inaccurate information provided,139,Pending,Not provided,139
+193,194,CALLER_194,155,Unauthorized charges,124,Closed,48.0,124
+194,195,CALLER_195,126,Poor quality product,162,Resolved,Not provided,162
+195,196,CALLER_196,150,Inaccurate information provided,150,Pending,Not provided,150
+196,197,CALLER_197,142,Package delivered to wrong address,144,New,Not provided,144
+197,198,CALLER_198,166,Unsatisfactory resolution,166,Pending,Not provided,166
+198,199,CALLER_199,124,Slow response time,135,Resolved,Not provided,135
+199,200,CALLER_200,135,Product damaged during shipping,135,Closed,32.0,135
+200,201,CALLER_201,157,Lack of follow-up,148,Closed,45.0,148
+201,202,CALLER_202,179,Refund not processed,162,Pending,Not provided,162
+202,203,CALLER_203,129,Incorrect charges,129,Closed,18.0,129
+203,204,CALLER_204,179,Inadequate product instructions,179,Pending,Not provided,179
+204,205,CALLER_205,166,Unauthorized charges,166,New,Not provided,166
+205,206,CALLER_206,180,Incorrect charges,180,New,Not provided,180
+206,207,CALLER_207,166,Poor communication,166,Resolved,Not provided,166
+207,208,CALLER_208,133,Wrong item received,133,Pending,Not provided,133
+208,209,CALLER_209,163,Refund not processed,163,Pending,Not provided,163
+209,210,CALLER_210,131,Product not as described,156,Pending,Not provided,156
+210,211,CALLER_211,172,Inadequate product instructions,148,Pending,Not provided,148
+211,212,CALLER_212,141,Billing discrepancy,171,Pending,Not provided,171
+212,213,CALLER_213,163,Incorrect order,163,Pending,Not provided,163
+213,214,CALLER_214,174,Lack of follow-up,158,Resolved,Not provided,158
+214,215,CALLER_215,163,Unprofessional behavior,163,Closed,23.0,163
+215,216,CALLER_216,126,Long wait time,126,New,Not provided,126
+216,217,CALLER_217,132,Wrong item received,170,Closed,34.0,170
+217,218,CALLER_218,177,Incorrect charges,177,Closed,40.0,177
+218,219,CALLER_219,147,Difficulty reaching customer support,172,Pending,Not provided,172
+219,220,CALLER_220,152,Product not as described,152,Resolved,Not provided,152
+220,221,CALLER_221,149,Lost package,156,Resolved,Not provided,156
+221,222,CALLER_222,141,Unprofessional behavior,141,Resolved,Not provided,141
+222,223,CALLER_223,159,Package never arrived,159,Pending,Not provided,159
+223,224,CALLER_224,178,Incorrect charges,142,Closed,29.0,142
+224,225,CALLER_225,143,Difficulty cancelling subscription,125,New,Not provided,125
+225,226,CALLER_226,158,Inadequate product instructions,158,Closed,43.0,158
+226,227,CALLER_227,122,Difficulty getting a refund,156,Pending,Not provided,156
+227,228,CALLER_228,179,Unprofessional behavior,179,New,Not provided,179
+228,229,CALLER_229,146,Package delivered to wrong address,146,Closed,36.0,146
+229,230,CALLER_230,163,Poor quality product,163,Closed,9.0,163
+230,231,CALLER_231,158,Product not delivered,129,Closed,42.0,129
+231,232,CALLER_232,180,Poor communication,180,Closed,44.0,180
+232,233,CALLER_233,174,Unresolved issue,177,Closed,12.0,177
+233,234,CALLER_234,163,Website not working,168,New,Not provided,168
+234,235,CALLER_235,161,Product not delivered,164,Closed,33.0,164
+235,236,CALLER_236,146,Billing discrepancy,144,Resolved,Not provided,144
+236,237,CALLER_237,141,Package never arrived,139,Resolved,Not provided,139
+237,238,CALLER_238,169,Unresolved issue,180,Closed,11.0,180
+238,239,CALLER_239,165,Wrong item received,181,Closed,29.0,181
+239,240,CALLER_240,157,Difficulty getting a refund,156,Pending,Not provided,156
+240,241,CALLER_241,163,Difficulty reaching customer support,163,Closed,20.0,163
+241,242,CALLER_242,125,Product damaged during shipping,160,Resolved,Not provided,160
+242,243,CALLER_243,133,Difficulty cancelling subscription,133,Resolved,Not provided,133
+243,244,CALLER_244,137,Poor quality product,137,Resolved,Not provided,137
+244,245,CALLER_245,181,Misplaced order,155,New,Not provided,155
+245,246,CALLER_246,131,Shipping delay,131,Resolved,Not provided,131
+246,247,CALLER_247,128,Website not working,176,New,Not provided,176
+247,248,CALLER_248,129,Billing discrepancy,156,Closed,24.0,156
+248,249,CALLER_249,171,Rude customer service representative,180,Pending,Not provided,180
+249,250,CALLER_250,141,Lack of follow-up,169,New,Not provided,169
+250,251,CALLER_251,130,Unresolved issue,179,Closed,24.0,179
+251,252,CALLER_252,138,Inadequate product instructions,156,Pending,Not provided,156
+252,253,CALLER_253,133,Lack of follow-up,133,New,Not provided,133
+253,254,CALLER_254,146,Unauthorized charges,123,New,Not provided,123
+254,255,CALLER_255,163,Inadequate product instructions,163,Pending,Not provided,163
+255,256,CALLER_256,178,Misplaced order,156,New,Not provided,156
+256,257,CALLER_257,122,Unprofessional behavior,138,Closed,24.0,138
+257,258,CALLER_258,175,Lack of follow-up,175,Closed,23.0,175
+258,259,CALLER_259,152,Wrong item received,171,Closed,16.0,171
+259,260,CALLER_260,164,Long wait time,173,Resolved,Not provided,173
+260,261,CALLER_261,133,Product damaged during shipping,133,Resolved,Not provided,133
+261,262,CALLER_262,134,Slow response time,134,Pending,Not provided,134
+262,263,CALLER_263,140,Unhelpful support,140,Pending,Not provided,140
+263,264,CALLER_264,146,Unresolved issue,146,New,Not provided,146
+264,265,CALLER_265,123,Website not working,123,Resolved,Not provided,123
+265,266,CALLER_266,148,Package never arrived,148,Pending,Not provided,148
+266,267,CALLER_267,170,Unauthorized charges,170,Pending,Not provided,170
+267,268,CALLER_268,178,Inaccurate information provided,130,New,Not provided,130
+268,269,CALLER_269,168,Shipping delay,168,New,Not provided,168
+269,270,CALLER_270,155,Shipping delay,155,Pending,Not provided,155
+270,271,CALLER_271,133,Unprofessional behavior,137,New,Not provided,137
+271,272,CALLER_272,135,Poor communication,127,New,Not provided,127
+272,273,CALLER_273,142,Inaccurate information provided,147,Closed,18.0,147
+273,274,CALLER_274,168,Unresolved issue,124,New,Not provided,124
+274,275,CALLER_275,152,Incorrect order,143,New,Not provided,143
+275,276,CALLER_276,153,Inadequate product instructions,150,New,Not provided,150
+276,277,CALLER_277,125,Product not delivered,125,Pending,Not provided,125
+277,278,CALLER_278,136,Inaccurate information provided,153,Pending,Not provided,153
+278,279,CALLER_279,171,Unresolved issue,180,Closed,12.0,180
+279,280,CALLER_280,121,Billing discrepancy,121,Pending,Not provided,121
+280,281,CALLER_281,174,Slow response time,174,Closed,9.0,174
+281,282,CALLER_282,150,Poor communication,150,New,Not provided,150
+282,283,CALLER_283,135,Product not delivered,135,Pending,Not provided,135
+283,284,CALLER_284,159,Incorrect charges,146,New,Not provided,146
+284,285,CALLER_285,162,Poor communication,138,Closed,48.0,138
+285,286,CALLER_286,150,Product not as described,139,Closed,6.0,139
+286,287,CALLER_287,168,Product not as described,168,Pending,Not provided,168
+287,288,CALLER_288,157,Inaccurate information provided,150,Pending,Not provided,150
+288,289,CALLER_289,133,Billing discrepancy,121,Pending,Not provided,121
+289,290,CALLER_290,173,Unhelpful support,151,Pending,Not provided,151
+290,291,CALLER_291,161,Website not working,122,Pending,Not provided,122
+291,292,CALLER_292,130,Slow response time,130,Closed,43.0,130
+292,293,CALLER_293,122,Unauthorized charges,126,Pending,Not provided,126
+293,294,CALLER_294,169,Difficulty cancelling subscription,169,Resolved,Not provided,169
+294,295,CALLER_295,179,Poor quality product,179,Closed,25.0,179
+295,296,CALLER_296,155,Product damaged during shipping,148,Pending,Not provided,148
+296,297,CALLER_297,152,Inaccurate information provided,124,Pending,Not provided,124
+297,298,CALLER_298,122,Long wait time,122,Resolved,Not provided,122
+298,299,CALLER_299,161,Difficulty getting a refund,127,Closed,22.0,127
+299,300,CALLER_300,144,Product damaged during shipping,164,Pending,Not provided,164
+300,301,CALLER_301,175,Billing discrepancy,147,Pending,Not provided,147
+301,302,CALLER_302,163,Rude customer service representative,137,New,Not provided,137
+302,303,CALLER_303,180,Website not working,180,Resolved,Not provided,180
+303,304,CALLER_304,168,Wrong item received,168,Resolved,Not provided,168
+304,305,CALLER_305,181,Wrong item received,149,Resolved,Not provided,149
+305,306,CALLER_306,171,Unresolved issue,171,Closed,40.0,171
+306,307,CALLER_307,137,Shipping delay,137,Pending,Not provided,137
+307,308,CALLER_308,149,Unresolved issue,149,Closed,25.0,149
+308,309,CALLER_309,165,Billing discrepancy,176,Pending,Not provided,176
+309,310,CALLER_310,152,Difficulty cancelling subscription,141,Pending,Not provided,141
+310,311,CALLER_311,145,Unresolved issue,126,New,Not provided,126
+311,312,CALLER_312,140,Unauthorized charges,157,Resolved,Not provided,157
+312,313,CALLER_313,170,Inaccurate information provided,170,Closed,22.0,170
+313,314,CALLER_314,181,Website not working,172,Pending,Not provided,172
+314,315,CALLER_315,140,Incorrect order,176,Closed,42.0,176
+315,316,CALLER_316,121,Inaccurate information provided,127,Closed,32.0,127
+316,317,CALLER_317,169,Incorrect order,181,Closed,27.0,181
+317,318,CALLER_318,176,Poor communication,166,Closed,42.0,166
+318,319,CALLER_319,167,Website not working,167,New,Not provided,167
+319,320,CALLER_320,139,Refund not processed,163,Pending,Not provided,163
+320,321,CALLER_321,135,Package never arrived,164,Closed,43.0,164
+321,322,CALLER_322,125,Difficulty getting a refund,125,Closed,3.0,125
+322,323,CALLER_323,132,Unhelpful support,132,Closed,3.0,132
+323,324,CALLER_324,156,Package delivered to wrong address,157,Closed,37.0,157
+324,325,CALLER_325,181,Poor quality product,181,Closed,11.0,181
+325,326,CALLER_326,134,Unprofessional behavior,167,Pending,Not provided,167
+326,327,CALLER_327,172,Inadequate product instructions,148,Pending,Not provided,148
+327,328,CALLER_328,122,Incorrect charges,125,Closed,9.0,125
+328,329,CALLER_329,130,Lost package,130,Pending,Not provided,130
+329,330,CALLER_330,131,Product damaged during shipping,163,Pending,Not provided,163
+330,331,CALLER_331,128,Product not delivered,178,New,Not provided,178
+331,332,CALLER_332,180,Product not delivered,160,New,Not provided,160
+332,333,CALLER_333,156,Website not working,175,Pending,Not provided,175
+333,334,CALLER_334,173,Website not working,173,Closed,20.0,173
+334,335,CALLER_335,178,Wrong item received,178,Resolved,Not provided,178
+335,336,CALLER_336,128,Unhelpful support,168,Closed,35.0,168
+336,337,CALLER_337,164,Misplaced order,171,Resolved,Not provided,171
+337,338,CALLER_338,164,Wrong item received,164,Pending,Not provided,164
+338,339,CALLER_339,142,Package never arrived,181,Pending,Not provided,181
+339,340,CALLER_340,181,Refund not processed,137,Pending,Not provided,137
+340,341,CALLER_341,124,Unsatisfactory resolution,160,Closed,38.0,160
+341,342,CALLER_342,135,Lack of follow-up,135,Closed,41.0,135
+342,343,CALLER_343,179,Website not working,126,Resolved,Not provided,126
+343,344,CALLER_344,180,Shipping delay,153,New,Not provided,153
+344,345,CALLER_345,175,Billing discrepancy,175,New,Not provided,175
+345,346,CALLER_346,136,Poor communication,157,Closed,5.0,157
+346,347,CALLER_347,129,Shipping delay,129,Closed,47.0,129
+347,348,CALLER_348,153,Poor quality product,124,New,Not provided,124
+348,349,CALLER_349,148,Unauthorized charges,152,Closed,45.0,152
+349,350,CALLER_350,167,Long wait time,181,Closed,10.0,181
+350,351,CALLER_351,141,Inadequate product instructions,149,Resolved,Not provided,149
+351,352,CALLER_352,154,Inaccurate information provided,160,Pending,Not provided,160
+352,353,CALLER_353,169,Wrong item received,158,Closed,12.0,158
+353,354,CALLER_354,151,Difficulty getting a refund,144,Resolved,Not provided,144
+354,355,CALLER_355,158,Product damaged during shipping,125,Pending,Not provided,125
+355,356,CALLER_356,124,Refund not processed,124,Closed,25.0,124
+356,357,CALLER_357,124,Lack of follow-up,136,Pending,Not provided,136
+357,358,CALLER_358,172,Slow response time,172,Pending,Not provided,172
+358,359,CALLER_359,176,Refund not processed,176,New,Not provided,176
+359,360,CALLER_360,163,Poor communication,163,Pending,Not provided,163
+360,361,CALLER_361,148,Slow response time,173,Closed,37.0,173
+361,362,CALLER_362,127,Poor communication,177,Pending,Not provided,177
+362,363,CALLER_363,155,Package delivered to wrong address,181,New,Not provided,181
+363,364,CALLER_364,153,Misplaced order,153,Closed,9.0,153
+364,365,CALLER_365,148,Lack of follow-up,148,Closed,18.0,148
+365,366,CALLER_366,174,Product not as described,181,Resolved,Not provided,181
+366,367,CALLER_367,176,Lost package,176,Resolved,Not provided,176
+367,368,CALLER_368,124,Package never arrived,124,Closed,35.0,124
+368,369,CALLER_369,164,Misplaced order,164,Closed,24.0,164
+369,370,CALLER_370,173,Lack of follow-up,164,Closed,15.0,164
+370,371,CALLER_371,142,Long wait time,167,Resolved,Not provided,167
+371,372,CALLER_372,169,Package never arrived,169,Pending,Not provided,169
+372,373,CALLER_373,176,Product not delivered,132,Closed,42.0,132
+373,374,CALLER_374,160,Misplaced order,160,Resolved,Not provided,160
+374,375,CALLER_375,145,Product not delivered,151,Resolved,Not provided,151
+375,376,CALLER_376,143,Lack of follow-up,143,Closed,24.0,143
+376,377,CALLER_377,178,Incorrect order,178,New,Not provided,178
+377,378,CALLER_378,158,Difficulty getting a refund,137,Pending,Not provided,137
+378,379,CALLER_379,142,Incorrect order,145,Pending,Not provided,145
+379,380,CALLER_380,146,Package delivered to wrong address,174,Resolved,Not provided,174
+380,381,CALLER_381,173,Difficulty getting a refund,152,Closed,5.0,152
+381,382,CALLER_382,178,Package never arrived,131,Pending,Not provided,131
+382,383,CALLER_383,165,Inaccurate information provided,165,Resolved,Not provided,165
+383,384,CALLER_384,132,Poor communication,132,Closed,12.0,132
+384,385,CALLER_385,151,Long wait time,171,Pending,Not provided,171
+385,386,CALLER_386,127,Slow response time,150,Closed,13.0,150
+386,387,CALLER_387,142,Long wait time,126,Resolved,Not provided,126
+387,388,CALLER_388,143,Difficulty getting a refund,143,Resolved,Not provided,143
+388,389,CALLER_389,175,Difficulty reaching customer support,130,Pending,Not provided,130
+389,390,CALLER_390,123,Poor communication,169,Resolved,Not provided,169
+390,391,CALLER_391,167,Refund not processed,152,Closed,22.0,152
+391,392,CALLER_392,166,Incorrect charges,159,Resolved,Not provided,159
+392,393,CALLER_393,152,Poor communication,172,Pending,Not provided,172
+393,394,CALLER_394,151,Package delivered to wrong address,151,Pending,Not provided,151
+394,395,CALLER_395,144,Unsatisfactory resolution,126,New,Not provided,126
+395,396,CALLER_396,149,Poor communication,156,Closed,22.0,156
+396,397,CALLER_397,125,Lost package,175,New,Not provided,175
+397,398,CALLER_398,136,Slow response time,155,Pending,Not provided,155
+398,399,CALLER_399,136,Lack of follow-up,130,Closed,39.0,130
+399,400,CALLER_400,152,Shipping delay,152,Pending,Not provided,152
+400,401,CALLER_401,132,Package delivered to wrong address,177,Resolved,Not provided,177
+401,402,CALLER_402,132,Rude customer service representative,179,Pending,Not provided,179
+402,403,CALLER_403,150,Product damaged during shipping,176,Resolved,Not provided,176
+403,404,CALLER_404,124,Package delivered to wrong address,127,Resolved,Not provided,127
+404,405,CALLER_405,176,Refund not processed,157,Closed,31.0,157
+405,406,CALLER_406,161,Difficulty reaching customer support,129,Pending,Not provided,129
+406,407,CALLER_407,158,Unresolved issue,158,Pending,Not provided,158
+407,408,CALLER_408,177,Poor quality product,143,Closed,47.0,143
+408,409,CALLER_409,179,Poor quality product,140,Resolved,Not provided,140
+409,410,CALLER_410,167,Difficulty getting a refund,167,Pending,Not provided,167
+410,411,CALLER_411,168,Difficulty getting a refund,138,Pending,Not provided,138
+411,412,CALLER_412,176,Poor quality product,145,Pending,Not provided,145
+412,413,CALLER_413,122,Lost package,143,Pending,Not provided,143
+413,414,CALLER_414,175,Package never arrived,149,Closed,30.0,149
+414,415,CALLER_415,122,Unsatisfactory resolution,130,Pending,Not provided,130
+415,416,CALLER_416,152,Wrong item received,158,Resolved,Not provided,158
+416,417,CALLER_417,161,Package never arrived,156,Pending,Not provided,156
+417,418,CALLER_418,160,Poor communication,156,Pending,Not provided,156
+418,419,CALLER_419,144,Inaccurate information provided,178,Closed,32.0,178
+419,420,CALLER_420,172,Shipping delay,140,Resolved,Not provided,140
+420,421,CALLER_421,137,Website not working,148,Resolved,Not provided,148
+421,422,CALLER_422,160,Refund not processed,160,Resolved,Not provided,160
+422,423,CALLER_423,122,Inaccurate information provided,133,Closed,4.0,133
+423,424,CALLER_424,167,Unhelpful support,158,Pending,Not provided,158
+424,425,CALLER_425,150,Incorrect order,138,Pending,Not provided,138
+425,426,CALLER_426,157,Poor communication,157,Resolved,Not provided,157
+426,427,CALLER_427,164,Refund not processed,165,Pending,Not provided,165
+427,428,CALLER_428,175,Package delivered to wrong address,140,Pending,Not provided,140
+428,429,CALLER_429,153,Poor communication,131,Resolved,Not provided,131
+429,430,CALLER_430,177,Wrong item received,177,Closed,20.0,177
+430,431,CALLER_431,167,Product not as described,180,Pending,Not provided,180
+431,432,CALLER_432,140,Unhelpful support,166,Pending,Not provided,166
+432,433,CALLER_433,137,Product not as described,137,Pending,Not provided,137
+433,434,CALLER_434,181,Website not working,181,Pending,Not provided,181
+434,435,CALLER_435,180,Difficulty getting a refund,180,Pending,Not provided,180
+435,436,CALLER_436,125,Inaccurate information provided,125,Pending,Not provided,125
+436,437,CALLER_437,159,Product damaged during shipping,150,Closed,48.0,150
+437,438,CALLER_438,132,Unauthorized charges,132,Pending,Not provided,132
+438,439,CALLER_439,143,Wrong item received,125,Resolved,Not provided,125
+439,440,CALLER_440,153,Incorrect charges,153,Pending,Not provided,153
+440,441,CALLER_441,165,Unsatisfactory resolution,146,Pending,Not provided,146
+441,442,CALLER_442,158,Lost package,158,Closed,45.0,158
+442,443,CALLER_443,162,Slow response time,162,Pending,Not provided,162
+443,444,CALLER_444,154,Unhelpful support,169,Closed,36.0,169
+444,445,CALLER_445,157,Billing discrepancy,157,Pending,Not provided,157
+445,446,CALLER_446,153,Product damaged during shipping,151,Pending,Not provided,151
+446,447,CALLER_447,128,Wrong item received,173,Closed,16.0,173
+447,448,CALLER_448,129,Billing discrepancy,129,New,Not provided,129
+448,449,CALLER_449,174,Unprofessional behavior,157,Closed,10.0,157
+449,450,CALLER_450,170,Billing discrepancy,130,New,Not provided,130
+450,451,CALLER_451,151,Difficulty getting a refund,137,New,Not provided,137
+451,452,CALLER_452,174,Long wait time,133,Pending,Not provided,133
+452,453,CALLER_453,172,Lack of follow-up,172,Closed,19.0,172
+453,454,CALLER_454,145,Unauthorized charges,141,Resolved,Not provided,141
+454,455,CALLER_455,155,Billing discrepancy,147,Resolved,Not provided,147
+455,456,CALLER_456,145,Inaccurate information provided,145,Pending,Not provided,145
+456,457,CALLER_457,148,Website not working,123,Resolved,Not provided,123
+457,458,CALLER_458,124,Incorrect order,160,Closed,48.0,160
+458,459,CALLER_459,175,Difficulty getting a refund,136,Closed,9.0,136
+459,460,CALLER_460,177,Difficulty cancelling subscription,122,Pending,Not provided,122
+460,461,CALLER_461,173,Shipping delay,173,Resolved,Not provided,173
+461,462,CALLER_462,166,Difficulty getting a refund,166,Closed,9.0,166
+462,463,CALLER_463,143,Poor communication,143,Pending,Not provided,143
+463,464,CALLER_464,131,Unresolved issue,131,New,Not provided,131
+464,465,CALLER_465,135,Unauthorized charges,181,Pending,Not provided,181
+465,466,CALLER_466,149,Website not working,149,Pending,Not provided,149
+466,467,CALLER_467,153,Difficulty getting a refund,134,Closed,32.0,134
+467,468,CALLER_468,178,Package never arrived,178,New,Not provided,178
+468,469,CALLER_469,132,Inaccurate information provided,132,Pending,Not provided,132
+469,470,CALLER_470,164,Billing discrepancy,143,Closed,15.0,143
+470,471,CALLER_471,172,Difficulty cancelling subscription,172,Closed,34.0,172
+471,472,CALLER_472,180,Unsatisfactory resolution,180,New,Not provided,180
+472,473,CALLER_473,178,Lost package,178,Pending,Not provided,178
+473,474,CALLER_474,151,Package delivered to wrong address,167,Resolved,Not provided,167
+474,475,CALLER_475,144,Poor communication,144,Closed,15.0,144
+475,476,CALLER_476,124,Rude customer service representative,135,Pending,Not provided,135
+476,477,CALLER_477,180,Long wait time,180,Closed,13.0,180
+477,478,CALLER_478,125,Difficulty cancelling subscription,123,Pending,Not provided,123
+478,479,CALLER_479,156,Difficulty reaching customer support,159,Resolved,Not provided,159
+479,480,CALLER_480,128,Unauthorized charges,145,Closed,11.0,145
+480,481,CALLER_481,166,Incorrect charges,166,Resolved,Not provided,166
+481,482,CALLER_482,161,Rude customer service representative,178,Pending,Not provided,178
+482,483,CALLER_483,170,Poor quality product,127,New,Not provided,127
+483,484,CALLER_484,144,Difficulty reaching customer support,171,New,Not provided,171
+484,485,CALLER_485,179,Inaccurate information provided,144,New,Not provided,144
+485,486,CALLER_486,161,Unprofessional behavior,158,Resolved,Not provided,158
+486,487,CALLER_487,132,Difficulty cancelling subscription,151,Closed,27.0,151
+487,488,CALLER_488,131,Billing discrepancy,156,New,Not provided,156
+488,489,CALLER_489,158,Incorrect charges,134,Pending,Not provided,134
+489,490,CALLER_490,152,Unauthorized charges,152,Pending,Not provided,152
+490,491,CALLER_491,132,Difficulty reaching customer support,132,Resolved,Not provided,132
+491,492,CALLER_492,181,Package delivered to wrong address,155,New,Not provided,155
+492,493,CALLER_493,149,Difficulty getting a refund,149,Resolved,Not provided,149
+493,494,CALLER_494,174,Wrong item received,174,New,Not provided,174
+494,495,CALLER_495,137,Unauthorized charges,156,Pending,Not provided,156
+495,496,CALLER_496,164,Product not delivered,164,Resolved,Not provided,164
+496,497,CALLER_497,128,Lack of follow-up,128,Resolved,Not provided,128
+497,498,CALLER_498,149,Lack of follow-up,141,New,Not provided,141
+498,499,CALLER_499,134,Long wait time,134,Resolved,Not provided,134
+499,500,CALLER_500,150,Package delivered to wrong address,156,Closed,23.0,156
+500,501,CALLER_501,171,Product not as described,164,Resolved,Not provided,164
+501,502,CALLER_502,177,Lack of follow-up,126,Resolved,Not provided,126
+502,503,CALLER_503,141,Lack of follow-up,123,Pending,Not provided,123
+503,504,CALLER_504,127,Product damaged during shipping,135,Closed,24.0,135
+504,505,CALLER_505,173,Billing discrepancy,173,Closed,34.0,173
+505,506,CALLER_506,124,Difficulty cancelling subscription,130,New,Not provided,130
+506,507,CALLER_507,155,Difficulty cancelling subscription,155,New,Not provided,155
+507,508,CALLER_508,169,Shipping delay,166,Pending,Not provided,166
+508,509,CALLER_509,176,Poor communication,176,Resolved,Not provided,176
+509,510,CALLER_510,170,Shipping delay,144,New,Not provided,144
+510,511,CALLER_511,144,Website not working,144,Pending,Not provided,144
+511,512,CALLER_512,166,Lost package,166,Pending,Not provided,166
+512,513,CALLER_513,155,Misplaced order,143,Pending,Not provided,143
+513,514,CALLER_514,132,Inadequate product instructions,156,Closed,23.0,156
+514,515,CALLER_515,178,Incorrect charges,129,Resolved,Not provided,129
+515,516,CALLER_516,162,Slow response time,162,Closed,39.0,162
+516,517,CALLER_517,135,Unhelpful support,162,Closed,4.0,162
+517,518,CALLER_518,154,Product not as described,180,New,Not provided,180
+518,519,CALLER_519,150,Long wait time,144,Closed,35.0,144
+519,520,CALLER_520,170,Slow response time,178,Pending,Not provided,178
+520,521,CALLER_521,158,Package never arrived,158,New,Not provided,158
+521,522,CALLER_522,133,Incorrect order,133,Closed,46.0,133
+522,523,CALLER_523,123,Wrong item received,123,Closed,20.0,123
+523,524,CALLER_524,150,Inadequate product instructions,150,Closed,16.0,150
+524,525,CALLER_525,137,Lack of follow-up,177,Closed,19.0,177
+525,526,CALLER_526,146,Difficulty cancelling subscription,166,Closed,8.0,166
+526,527,CALLER_527,180,Inadequate product instructions,123,New,Not provided,123
+527,528,CALLER_528,150,Inadequate product instructions,125,Resolved,Not provided,125
+528,529,CALLER_529,168,Inadequate product instructions,130,Pending,Not provided,130
+529,530,CALLER_530,179,Incorrect charges,179,New,Not provided,179
+530,531,CALLER_531,165,Lack of follow-up,165,Closed,44.0,165
+531,532,CALLER_532,165,Refund not processed,129,Resolved,Not provided,129
+532,533,CALLER_533,144,Shipping delay,172,Pending,Not provided,172
+533,534,CALLER_534,176,Product not as described,140,Resolved,Not provided,140
+534,535,CALLER_535,162,Wrong item received,152,Pending,Not provided,152
+535,536,CALLER_536,157,Wrong item received,138,Closed,26.0,138
+536,537,CALLER_537,124,Lack of follow-up,124,Pending,Not provided,124
+537,538,CALLER_538,140,Incorrect charges,157,Closed,48.0,157
+538,539,CALLER_539,181,Website not working,123,Pending,Not provided,123
+539,540,CALLER_540,171,Slow response time,171,Resolved,Not provided,171
+540,541,CALLER_541,137,Product damaged during shipping,156,Pending,Not provided,156
+541,542,CALLER_542,153,Wrong item received,123,Pending,Not provided,123
+542,543,CALLER_543,153,Incorrect charges,153,Closed,11.0,153
+543,544,CALLER_544,169,Unauthorized charges,169,Closed,39.0,169
+544,545,CALLER_545,176,Inaccurate information provided,178,Closed,9.0,178
+545,546,CALLER_546,125,Difficulty reaching customer support,173,Pending,Not provided,173
+546,547,CALLER_547,165,Inaccurate information provided,165,Pending,Not provided,165
+547,548,CALLER_548,124,Unprofessional behavior,124,Pending,Not provided,124
+548,549,CALLER_549,170,Billing discrepancy,133,Pending,Not provided,133
+549,550,CALLER_550,177,Long wait time,132,Pending,Not provided,132
+550,551,CALLER_551,145,Website not working,171,Closed,31.0,171
+551,552,CALLER_552,149,Product not as described,149,Closed,37.0,149
+552,553,CALLER_553,171,Unhelpful support,156,Resolved,Not provided,156
+553,554,CALLER_554,147,Website not working,147,Closed,32.0,147
+554,555,CALLER_555,124,Incorrect order,172,Pending,Not provided,172
+555,556,CALLER_556,125,Product damaged during shipping,164,Closed,25.0,164
+556,557,CALLER_557,142,Unsatisfactory resolution,123,New,Not provided,123
+557,558,CALLER_558,181,Long wait time,140,Pending,Not provided,140
+558,559,CALLER_559,136,Poor communication,136,New,Not provided,136
+559,560,CALLER_560,174,Poor quality product,135,Resolved,Not provided,135
+560,561,CALLER_561,176,Unauthorized charges,176,Resolved,Not provided,176
+561,562,CALLER_562,141,Product not as described,141,New,Not provided,141
+562,563,CALLER_563,157,Package delivered to wrong address,157,Closed,31.0,157
+563,564,CALLER_564,170,Unresolved issue,126,New,Not provided,126
+564,565,CALLER_565,172,Incorrect order,152,Pending,Not provided,152
+565,566,CALLER_566,141,Incorrect charges,141,Closed,19.0,141
+566,567,CALLER_567,157,Inadequate product instructions,157,Closed,14.0,157
+567,568,CALLER_568,154,Lost package,163,Closed,39.0,163
+568,569,CALLER_569,178,Package never arrived,178,Pending,Not provided,178
+569,570,CALLER_570,131,Difficulty getting a refund,173,Pending,Not provided,173
+570,571,CALLER_571,141,Incorrect charges,167,Resolved,Not provided,167
+571,572,CALLER_572,126,Product not delivered,154,Closed,23.0,154
+572,573,CALLER_573,137,Shipping delay,137,Closed,16.0,137
+573,574,CALLER_574,147,Lack of follow-up,147,Closed,33.0,147
+574,575,CALLER_575,180,Wrong item received,175,Closed,25.0,175
+575,576,CALLER_576,153,Long wait time,180,Closed,42.0,180
+576,577,CALLER_577,159,Unsatisfactory resolution,159,New,Not provided,159
+577,578,CALLER_578,172,Lost package,172,Closed,32.0,172
+578,579,CALLER_579,166,Wrong item received,177,Closed,7.0,177
+579,580,CALLER_580,130,Wrong item received,130,Pending,Not provided,130
+580,581,CALLER_581,131,Product not delivered,168,Closed,31.0,168
+581,582,CALLER_582,130,Unsatisfactory resolution,130,Closed,36.0,130
+582,583,CALLER_583,147,Unsatisfactory resolution,145,New,Not provided,145
+583,584,CALLER_584,158,Shipping delay,158,Pending,Not provided,158
+584,585,CALLER_585,144,Billing discrepancy,152,Closed,45.0,152
+585,586,CALLER_586,154,Incorrect charges,154,Closed,43.0,154
+586,587,CALLER_587,139,Unauthorized charges,139,Pending,Not provided,139
+587,588,CALLER_588,164,Inaccurate information provided,147,Pending,Not provided,147
+588,589,CALLER_589,142,Lack of follow-up,143,New,Not provided,143
+589,590,CALLER_590,152,Rude customer service representative,154,Pending,Not provided,154
+590,591,CALLER_591,129,Incorrect charges,181,Closed,36.0,181
+591,592,CALLER_592,127,Difficulty reaching customer support,152,Closed,23.0,152
+592,593,CALLER_593,171,Inadequate product instructions,144,New,Not provided,144
+593,594,CALLER_594,121,Package never arrived,158,Pending,Not provided,158
+594,595,CALLER_595,180,Difficulty getting a refund,180,New,Not provided,180
+595,596,CALLER_596,137,Unhelpful support,169,New,Not provided,169
+596,597,CALLER_597,159,Slow response time,159,Resolved,Not provided,159
+597,598,CALLER_598,148,Shipping delay,150,Pending,Not provided,150
+598,599,CALLER_599,161,Website not working,148,Pending,Not provided,148
+599,600,CALLER_600,127,Wrong item received,149,Resolved,Not provided,149
