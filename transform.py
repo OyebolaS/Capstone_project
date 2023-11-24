@@ -3,7 +3,6 @@ import csv
 import pandas as pd
 
 transform_tables = ['dim_all_calls', 'dim_recieved_calls', 'dim_assigned_calls', 'dim_resolved_calls',  'dim_complaints',  'dim_agents', 'dim_call_resolution']
-insert_into_transform = ['dim_all_calls', 'dim_recieved_calls' ,'dim_resolved_calls', 'dim_assigned_calls', 'dim_complaints', 'dim_agents', 'dim_call_resolution']
 call_details= pd.read_csv(r'cleaned_call_details.csv')
 call_log= pd.read_csv(r'cleaned_call_log.csv')
 try:
@@ -11,7 +10,7 @@ try:
         host= 'localhost',
         user= 'postgres',
         password ='Luvkadend',
-        database ='CAPSTONE'
+        database ='project'
     )
 
     cursor=conn.cursor()
@@ -19,7 +18,7 @@ try:
 except Exception as e:
     print(e)
 else:
-    cursor.execute (
+    cursor.execute ("""
 CREATE SCHEMA IF NOT EXISTS staged_schema;
 CREATE TABLE IF NOT EXISTS dim_calls_made(
 id INTEGER,
@@ -81,7 +80,7 @@ resolved_agent_id INTEGER,
 recieved_call_id INTEGER,
 agent_id INTEGER,
 resolution_duration_in_hours INTEGER,
-call_duration_in_seconds INTEGER);
+call_duration_in_secs INTEGER);
 
 INSERT INTO dim_all_calls(
 id,
@@ -90,7 +89,7 @@ caller_id,
 agent_id,
 call_type,
 assigned_to_id,
-call_duration_in_seconds,
+call_duration_in_secs,
 call_ended_by_agent
 );
 
@@ -101,15 +100,15 @@ a.caller_id,
 a.recieving_agent_id as agent_id,
 a.call_type,
 a.assigned_to_id,
-a.call_duration_in_seconds,
+a.call_duration_in_secs,
 a.call_ended_by_agent
-FROM raw_schema.all_calls a;
+FROM weserve.all_calls a;
 
 INSERT INTO dim_recieved_calls(
 id,
 recieved_call_id,
 inbound_caller_id,
-call_duration_in_seconds,
+call_duration_in_secs,
 recieving_agent_id,
 assigned_to_id
 );
@@ -118,10 +117,10 @@ SELECT
 r.id,
 r.call_id as recieved_call_id,
 r.caller_id as inbound_caller_id,
-r.call_duration_in_seconds,
+r.call_duration_in_secs,
 r.recieving_agent_id,
 r.assigned_to_id
-FROM raw_schema.recieved_calls r;
+FROM weserve.recieved_calls r;
 
 INSERT INTO dim_resolved_calls(
 id,
@@ -141,7 +140,7 @@ re.recieving_agent_id,
 re.assigned_to_id,
 re.complaint_status,
 re.resolution_duration_in_hours
-FROM raw_schema.resolved_calls re;
+FROM weserve.resolved_calls re;
 
 INSERT INTO dim_assigned_calls(
 id,
@@ -156,7 +155,7 @@ a.call_id,
 caller_id,
 a.assigned_calls_to_agent_id,
 a.complaint_status
-FROM raw_schema.assigned_calls a;
+FROM weserve.assigned_calls a;
 
 INSERT INTO dim_complaints(
 id,
@@ -169,7 +168,7 @@ c.id,
 c.call_id,
 c.complaint_topic,
 c.complaint_status
-FROM raw_schema.complaints c;
+FROM weserve.complaints c;
 
 
 INSERT INTO dim_agents(
@@ -181,7 +180,7 @@ SELECT
 da.id,
 da.recieving_agent_id as agent_id,
 da.agents_grade_level
-FROM raw_schema.agents da;
+FROM weserve.agents da;
 
 INSERT INTO dim_call_resolution(
 all_calls_id,
@@ -196,7 +195,7 @@ recieved_call_id,
 resolved_agent_id,
 agent_id,
 resolution_duration_in_hours,
-call_duration_in_seconds
+call_duration_in_secs
 );
 SELECT
 a.id as all_calls_id,
@@ -211,24 +210,24 @@ rec.call_id as recieved_call_id,
 res.assigned_agent_id as resolved_agent_id,
 ag.recieving_agent_id,
 res.resolution_duration_in_hours,
-a.call_duration_in_seconds
-FROM raw_schema.all_calls a
-LEFT JOIN raw_schema.assigned_calls asi
+a.call_duration_in_secs
+FROM weserve.all_calls a
+LEFT JOIN weserve.assigned_calls asi
 ON
 a.call_id = asi.call_id
-LEFT JOIN raw_schema.resolved_calls res
+LEFT JOIN weserve.resolved_calls res
 ON
 a.call_id = res.call_id
-LEFT JOIN raw_schema.complaints c
+LEFT JOIN weserve.complaints c
 ON
 a.call_id = c.call_id
-LEFT JOIN raw_schema.recieved_calls rec
+LEFT JOIN weserve.recieved_calls rec
 ON 
 a.call_id = rec.call_id
-LEFT JOIN raw_schema.agents ag
+LEFT JOIN weserve.agents ag
 ON
 a.call_id = ag.call_id
-    )
+    """)
 
 with open('transform.csv', 'w') as f:
     file= csv.writer(f, delimiter=',' )
